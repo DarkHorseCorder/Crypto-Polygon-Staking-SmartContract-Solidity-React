@@ -1,0 +1,369 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+@font-face {
+  font-family: Lilita One;
+  src: url(../src/assets/LilitaOne-Regular.ttf);
+}
+.primary-header{
+  background: #331684;
+  box-shadow: 0px 6.71486px 10.6319px -3.917px rgba(0, 0, 0, 0.28);
+  border-radius: 16.7871px 16.7871px 0px 0px;
+}
+.primary-title{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26.8594px;
+  line-height: 160%;
+  align-items: center;
+  text-align: center;
+  color: #ECE8FF;
+  margin: 10px 0px 10px 0px;
+}
+.primary-subtitle{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ECE8FF;
+}
+.primary-content{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+.primary-body{
+  background: #FFFFFF;
+  box-shadow: 0px 10.2px 16.15px -5.95px rgba(0, 0, 0, 0.28);
+  border-radius: 0px 0px 25.5px 25.5px;
+}
+.primary-background{
+  background: #331684;
+  border: none;
+  height: 100%;
+}
+.secondary-title{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #331684;
+}
+.secondary-subtitle{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #331684;
+}
+.secondary-background{
+  background: #6433C4;
+  border-radius: 18px 18px 18px 18px;
+
+}
+.secondary-content{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #331684;
+}
+.pr-10{
+  padding-right: 4rem;
+}
+.pl-10{
+  padding-left: 4rem;
+}
+.custom-p-5{
+  padding:3rem;
+}
+.custom-pr-10{
+  padding-right: 4rem;
+}
+.custom-pl-10{
+  padding-left: 4rem;
+}
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+.reinvest_btn{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container{
+  margin: 0px;
+}
+.header-content{
+  font-size: 35px!important;
+  margin: 5rem 20rem 5rem 20rem;
+}
+@media only screen and (max-width: 1700px) {
+  .header-content{
+    font-size: 30px!important;
+    margin: 5rem 15rem 5rem 15rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header-content{
+    font-size: 30px!important;
+    margin: 5rem 15rem 5rem 15rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .custom-pr-10{
+    padding-right: 1rem;
+  }
+  .custom-pl-10{
+    padding-left: 1rem;
+  }
+  .header-content{
+    font-size: 28px!important;
+    margin: 3rem 10rem 3rem 10rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .custom-p-5 {
+    padding: 1rem;
+  }
+  .custom-pr-10{
+    padding-right: 1rem;
+  }
+  .custom-pl-10{
+    padding-left: 1rem;
+  }
+  .header-content{
+    font-size: 24px!important;
+    margin: 3rem 5rem 3rem 5rem;
+  }
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.header-logo{
+  height: 374px;
+  width: 100%;
+  justify-content: space-between!important;
+  display: flex!important;
+}
+.mainpart-one{
+  justify-content: center!important;
+  display: flex!important;
+}
+@media only screen and (max-width: 768px) {
+  .header-logo{
+    height: 374px;
+    width: 100%;
+    justify-content: center!important;
+    display: block!important;
+  }
+}
+.contact-btn{
+  width: 124px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #A673EF;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin: 0px 12px 12px 12px;
+  font-family: 'Lilita One';
+  font-size: 24px;
+  line-height: 160%;
+  color: #8247E5;
+}
+@media only screen and (max-width: 460px) {
+  .mainpart-one{
+    justify-content: center!important;
+    display: block!important;
+  }
+}
+.maintitle{
+  font-size: 64px;
+}
+.connect-wallet{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  background: #FFFFFF;
+  border: 1px solid #A673EF;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+.connect-wallet span{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.871px;
+  line-height: 160%;
+  color: #8247E5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 5.29032px;
+}
+.App-link {
+  color: #61dafb;
+}
+.header-content{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  color: #331684;
+}
+main{
+  width: 100%;
+  left: 0px;
+  top: 491px;
+  background: radial-gradient(58.94% 58.94% at -4.47% 0%, rgba(1, 11, 243, 0.47) 0%, rgba(159, 1, 243, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(38.77% 38.77% at 57.25% 61.23%, rgba(241, 0, 116, 0.43) 0%, rgba(196, 0, 241, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(83.32deg, #9000E8 4.01%, #B601F6 94.76%);
+}
+.mainpart-one{
+  padding-top: 19px;
+}
+
+.plan{
+  width: 212px;
+}
+.plan-subpart{
+  background: #FFFFFF;
+  box-shadow: 0px 1.42761px 2.14141px rgba(0, 0, 0, 0.08);
+  border-radius: 21.4141px;
+}
+
+.deposit-title{
+  
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.1313px;
+  line-height: 160%;
+  text-align: center;
+  color: #331684;
+
+}
+#contract-balance{
+
+}
+#total-deposit{
+
+}
+.plan-deadline{
+  
+  background: #9000E8;
+}
+.plan-deadline p{
+  
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.4141px;
+  line-height: 117%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.plan-totalvalue{
+  
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.697px;
+  line-height: 160%;
+  text-align: center;
+  color: #331684;
+
+}
+.plan-valueinput{
+  position: static;
+  background: #FFFFFF;
+  border: 0.713805px solid #8247E5;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.12), 0px 0px 0px 3px #DCD4FF;
+  border-radius: 4.28283px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  width: 100%;
+  height: 100%;
+  margin: 4px 0px;
+}
+.deposit-btn{
+  background: #9000E8;
+  width: 100%;
+  border-radius: 0px 0px 9.27946px 9.27946px;
+  margin: 0;
+}
+.dashboard-content{
+  border-radius: 0px 18px 18px 18px;
+}
+
+footer{
+  background: #1A1A1A;
+  border: 8px dashed #FFFFFF;
+  box-sizing: border-box;
+}
+.footer-contact-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #A673EF;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  flex: none;
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-size: 24px;
+  color: #8247E5;
+  margin: 0px 10px 0px 10px;
+}
+.footer-part{
+  justify-content: center!important;
+  display: flex!important;
+}
+@media only screen and (max-width: 768px) {
+  .footer-part{
+    justify-content: center!important;
+    display: block!important;
+  }
+  .footer-contact-btn{
+    margin: auto;
+    margin-top : 10px;
+    margin-bottom: 10px;
+  }
+}
