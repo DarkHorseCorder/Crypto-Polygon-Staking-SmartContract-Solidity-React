@@ -1,5 +1,23 @@
 # Crypto Staking Pool on Polygon Chain
 
+![website](https://github.com/DarkHorseCorder/Crypto-Polygon-Staking-SmartContract-Solidity-React/blob/master/public/screencapture-localhost-3000-2022-03-19-04_53_48.png)
+
+I have built staking smart contract with solidity.
+
+I have test this smart contract on Polygon test net and deploy on Polygon main net.
+
+## How to connect Polygon test net and main net?
+
+### Test Net
+![Polygon testnet](https://wiki.polygon.technology/img/metamask/metamask-settings-mumbai.png)
+
+### Main Net
+![Polygon mainnet](https://wiki.polygon.technology/img/metamask/metamask-settings-mainnet.png)
+
+## Project Description
+
+![contract balance and total deposit, staking plans](https://github.com/DarkHorseCorder/Crypto-Polygon-Staking-SmartContract-Solidity-React/blob/master/public/Screenshot_2.png)
+
 Number in “contract balance” box is: "_contractBalance” in "getSiteInfo" in Matic unit
 
 Number in “total deposit” box is: "_totalInvested" in "getSiteInfo" in Matic unit
@@ -7,6 +25,8 @@ Number in “total deposit” box is: "_totalInvested" in "getSiteInfo" in Matic
 “deposit” in plan1 box is:  “invest” function, with amount in text box above, plan being “0” and referrer being devwallet unless the user has a referrer
 
 “deposit” in plan2 box is:  “invest” function, with amount in text box above, with plan being “1” and referrer being devwallet unless the user has a referrer
+
+![deposit count and total deposit, total withdraw](https://github.com/DarkHorseCorder/Crypto-Polygon-Staking-SmartContract-Solidity-React/blob/master/public/Screenshot_1.png)
 
 Number in “Deposit count” box is: "getUserAmountOfDeposits”
 
