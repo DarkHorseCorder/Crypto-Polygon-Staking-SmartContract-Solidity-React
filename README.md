@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# Crypto Staking Pool on Polygon Chain
+
+Number in “contract balance” box is: "_contractBalance” in "getSiteInfo" in Matic unit
+
+Number in “total deposit” box is: "_totalInvested" in "getSiteInfo" in Matic unit
+
+“deposit” in plan1 box is:  “invest” function, with amount in text box above, plan being “0” and referrer being devwallet unless the user has a referrer
+
+“deposit” in plan2 box is:  “invest” function, with amount in text box above, with plan being “1” and referrer being devwallet unless the user has a referrer
+
+Number in “Deposit count” box is: "getUserAmountOfDeposits”
+
+Number in “total deposit” box is: "totalDeposit" from "getUserInfo"
+
+Number in “total withdrawn” box is: “totalWithdrawn” from "getUserInfo"
+
+Number in “total referral bonus” box is: "getUserReferralTotalBonus"
+Number in “referred users” is: “getUserTotalReferrals”
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
